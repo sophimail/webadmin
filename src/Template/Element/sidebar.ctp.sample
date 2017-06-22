@@ -1,0 +1,12 @@
+<ul class="nav nav-sidebar">
+    <li><?= $this->Html->link(__('New Admin'), ['action' => 'add']); ?></li>
+    <li><?= $this->Html->link(__('List Domain'), ['controller' => 'Domain', 'action' => 'index']); ?></li>
+    <li>
+    <a aria-expanded="true" class="" href="javascript:;" data-toggle="collapse" data-target="#demo"><span class="glyphicon glyphicon-option-vertical"></span>  Dropdown  <span class="glyphicon glyphicon-triangle-bottom"></span></a>
+        <ul style="" aria-expanded="true" id="demo" class="collapse">
+            <li><?= $this->Html->link(__('New Domain'), ['controller' => ' Domain', 'action' => 'add']); ?></li>
+        </ul>
+    </li> 
+    <li><?= $this->Html->link(__('New Domain'), ['controller' => ' Domain', 'action' => 'add']); ?></li>
+    <li><?= $this->Html->link(__("<i class='fa fa-plus'></i> Add Team"), ['action' => 'add'], ['class' => 'add', 'escape' => false]); ?></li>
+</ul>

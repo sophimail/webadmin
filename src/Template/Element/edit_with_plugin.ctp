@@ -1,0 +1,1 @@
+<?= $this->Html->link('<i class="fa fa-pencil"></i>&nbsp;&nbsp;Edit', array( 'plugin' => $this->request->params['plugin'], 'action' => 'edit', $viewvar), array( 'bootstrap-type' => 'primary', 'class' => 'btn btn-primary', 'rule' => 'button', 'escape' => false)) ?>

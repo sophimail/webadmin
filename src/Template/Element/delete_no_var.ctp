@@ -1,0 +1,1 @@
+<?= $this->Form->postLink('<i class="fa fa-times"></i>&nbsp;&nbsp;Delete', array( 'controller' => $this->request->params['controller'], 'action' => 'delete'), array( 'bootstrap-type' => 'primary', 'class' => 'btn btn-primary', 'rule' => 'button', 'escape' => false, 'confirm' => __('Are you sure you want to delete record {0}?', $viewvar))) ?>
