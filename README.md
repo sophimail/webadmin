@@ -19,3 +19,8 @@ the setup traffic lights.
 
 Read and edit `config/app.php` and setup the 'Datasources' and any other
 configuration relevant for your application.
+
+## Contributor License Agreement
+
+By committing source code, data or other material to the Shopimail project you are assigning all copyright and/ or similar rights to AVERWAY LTD
+in consideration of its agreement to license the source, code, data or other material under GPL v.3.0.
