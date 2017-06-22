@@ -1,4 +1,4 @@
-SophiMail Dashboard Application
+## SophiMail Dashboard Application
 
 The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
 
