@@ -1,16 +1,32 @@
 <?php
 /**
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
  *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
+ * Copyright (c) 2017 AVERWAY LTD
  *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @since         0.10.0
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ * LICENSE:
+ *
+ * This file is part of SophiMail Dashboard (http://www.sophimail.com).
+ *
+ * SophiMail Dashboard is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
+ * License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any
+ * later version with exceptions for vendors and plugins.
+ *
+ * See the LICENSE file for a full license statement.
+ *
+ * SophiMail Dashboard is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+ * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with SophiMail Dashboard.  If not, see
+ * <http://www.gnu.org/licenses/>.
+ *
+ *
+ * @author AVERWAY LTD <support@sophimail.com>
+ * @license GNU/GPLv3 or later; https://www.gnu.org/licenses/gpl.html
+ * @copyright 2017 AVERWAY LTD
+ * 
+ * SophiMail is a registered trademark of AVERWAY LTD
+ *
  */
 ?>
 <?php
