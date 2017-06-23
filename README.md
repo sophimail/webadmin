@@ -1,24 +1,16 @@
 ## SophiMail Dashboard Application
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+1. Centralized interface for managing distributed Email server engines.
+2. Role-based, ideal for VARs, ISPs and IT admins.
+3. Integrated in all SophiMail business email installations.
+4. Supports all PostfixAdmin installations.
+5. Developed on Bootstrap and CakePHP.
 
-## Installation
+## Links
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
-
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
-
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+- [Demo](https://services.sophimail.com:8182/login)
+- [Download VM](http://www.sophimail.com/downloads/)
+- [Email server installation instructions on FreeBSD](http://www.sophimail.com/configure-freebsd-email-server-using-postfix-dovecot-mysql-spamassassin/)
 
 ## Contributor License Agreement
 
