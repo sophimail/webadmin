@@ -2,3 +2,5 @@
 /config/app.php
 /tmp/*
 /logs/*
+/src/Controller/AppController.php
+/src/Controller/Component/GlobalComponent.php
