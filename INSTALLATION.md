@@ -1,4 +1,4 @@
-## Installation
+## INSTALLATION
 composer clearcache (optional)
 - Clone the current master with: git clone https://github.com/sophimail/webadmin.git
 - cd webadmin
