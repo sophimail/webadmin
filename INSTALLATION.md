@@ -7,7 +7,7 @@ composer clearcache (optional)
 
 
 
-## DATABASE SETUP
+## Database initialization
 
 Note: Database for SophiMail Webadmin must use UTF-8 character set.
 
@@ -17,8 +17,8 @@ Note: Database for SophiMail Webadmin must use UTF-8 character set.
 ## DSN configuration
 Modify file: config/app.php
 
-- Default Datasource: DB: a0001 on localhost
-This Database stores administrative information such as Locations, Administrators and Domains Attrubutes
+- Default Datasource: DB: a0001 on localhost.
+This Database stores administrative information such as Locations, Administrators and Domains Attrubutes.
 
 - DB1 remote Datasource, it is the actual email server database scheme (according to PostfixAdmin scheme). This can be a remote database on different location.
  
