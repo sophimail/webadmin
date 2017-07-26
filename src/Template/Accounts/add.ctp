@@ -43,7 +43,7 @@ $this->extend('../Layout/TwitterBootstrap/dashboard');
           
             <label class="col-lg-3 control-label">Datasource</label>
             <div class="col-lg-8">
-              <?= $this->Form->input('datasource', array('label' => false, 'div' => false, 'placeholder' => 'Datasource Name')) ?>
+              <?= $this->Form->input('datasource', array('label' => false, 'div' => false, 'placeholder' => 'Datasource Name (eg. DB1)')) ?>
             </div>
 
             <label class="col-lg-3 control-label">Location</label>
