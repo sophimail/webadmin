@@ -48,7 +48,7 @@ $this->extend('../Layout/TwitterBootstrap/dashboard');
 
             <label class="col-lg-3 control-label">Location</label>
             <div class="col-lg-8">
-              <?= $this->Form->input('description', array('label' => false, 'div' => false, 'placeholder' => 'Location Description')) ?>
+              <?= $this->Form->input('description', array('label' => false, 'div' => false, 'placeholder' => 'Location Description (eg. AMS DC)')) ?>
             </div>
 
             <label class="col-lg-3 control-label">Domain Connection</label>
