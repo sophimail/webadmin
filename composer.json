@@ -10,7 +10,7 @@
         "mobiledetect/mobiledetectlib": "2.*",
         "cakephp/migrations": "~1.0",
         "cakephp/plugin-installer": "*",
-        "friendsofcake/bootstrap-ui": "^0.4.0",
+        "friendsofcake/bootstrap-ui": "^0.6.0",
         "cakedc/users": "~3.1.0",
         "league/oauth2-facebook": "@stable",
         "league/oauth2-instagram": "@stable",
