@@ -18,7 +18,7 @@ Note: Database for SophiMail Webadmin must use UTF-8 character set.
 Modify file: config/app.php
 
 - Default Datasource: DB: a0001 on localhost.
-The default database for administrative information such as server locations, administrators and domain attributes.
+The default administrative database for server locations, administrators and domain attributes.
 
 - DB1 remote Datasource, it is the actual email server database scheme (according to PostfixAdmin scheme). This can be a remote database on different location.
  
