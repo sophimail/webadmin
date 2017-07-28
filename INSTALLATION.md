@@ -11,7 +11,7 @@
 
 Note: Database for SophiMail Webadmin must use UTF-8 character set. Create a new database with DB name \`a0001\`.
 
-- `create database /`a0001/` default character set latin1;`
+- `create database a0001 default character set latin1;`
 - `mysql a0001 < SQL/mysql.initial.sql`
 
 
@@ -25,6 +25,7 @@ The default administrative database for server locations, administrators and dom
  
 Additionally, one can add as many datasource as the email servers under administration. For instance add DB2 as another datasource to manage another remote email server.
 Thus, within a single web instance an administrator can manage multiple email server engines on different locations, even on-premise. Remember to enable port 3306 on firewall on remote machines only for the web server IP running the webadmin virtual host.
+
 
 ## Create Superadmin user
 - `cd webadmin`
