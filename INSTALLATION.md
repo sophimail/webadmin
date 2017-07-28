@@ -11,7 +11,7 @@
 
 Note: Database for SophiMail Webadmin must use UTF-8 character set. Create a new database with DB name \`a0001\`.
 
-- `create database `a0001` default character set latin1;`
+- `create database /`a0001/` default character set latin1;`
 - `mysql a0001 < SQL/mysql.initial.sql`
 
 
