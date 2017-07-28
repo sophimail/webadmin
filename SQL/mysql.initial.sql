@@ -18,13 +18,7 @@
 --
 -- Current Database: `a0001`
 --
- 
-/*!40000 DROP DATABASE IF EXISTS `a0001`*/;
- 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `a0001` /*!40100 DEFAULT CHARACTER SET latin1 */;
- 
-USE `a0001`;
- 
+
 --
 -- Table structure for table `accounts`
 --
