@@ -34,3 +34,5 @@
 *.mo binary
 *.pdf binary
 *.phar binary
+*.exe binary
+*.bat binary
