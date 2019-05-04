@@ -12,7 +12,7 @@
 
 ## Contributor License Agreement
 
-By committing source code, data or other material to the Shopimail project you are assigning all copyright and/ or similar rights to AVERWAY LTD
+By committing source code, data or other material to the SophiMail project you are assigning all copyright and/ or similar rights to AVERWAY LTD
 in consideration of its agreement to license the source, code, data or other material under GPL v.3.0.
 
 ## Screenshots
