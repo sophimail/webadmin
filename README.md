@@ -9,9 +9,6 @@
 ## Links
 
 - [Installation instructions](https://github.com/sophimail/webadmin/blob/master/INSTALLATION.md)
-- [Demo](https://services.sophimail.com:8182/login)
-- [Download VM](http://www.sophimail.com/downloads/)
-- [Email server installation instructions on FreeBSD](http://www.sophimail.com/configure-freebsd-email-server-using-postfix-dovecot-mysql-spamassassin/)
 
 ## Contributor License Agreement
 
