@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "c7d1905c354bdd39f5aa6a0a4c3aec8d",
     "content-hash": "525397f0faa7aae9a7603afcbc6814f5",
     "packages": [
         {
@@ -51,7 +50,7 @@
                 "l10n",
                 "localization"
             ],
-            "time": "2017-01-20 05:00:11"
+            "time": "2017-01-20T05:00:11+00:00"
         },
         {
             "name": "cakedc/users",
@@ -117,7 +116,7 @@
                 "cakephp",
                 "oauth2"
             ],
-            "time": "2016-03-20 16:30:44"
+            "time": "2016-03-20T16:30:44+00:00"
         },
         {
             "name": "cakephp/cakephp",
@@ -203,7 +202,7 @@
                 "rapid-development",
                 "validation"
             ],
-            "time": "2017-07-19 01:43:53"
+            "time": "2017-07-19T01:43:53+00:00"
         },
         {
             "name": "cakephp/chronos",
@@ -260,7 +259,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2017-04-27 01:27:49"
+            "time": "2017-04-27T01:27:49+00:00"
         },
         {
             "name": "cakephp/elastic-search",
@@ -307,7 +306,7 @@
                 "cakephp",
                 "elasticsearch"
             ],
-            "time": "2016-11-13 08:05:36"
+            "time": "2016-11-13T08:05:36+00:00"
         },
         {
             "name": "cakephp/migrations",
@@ -357,7 +356,7 @@
                 "cakephp",
                 "migrations"
             ],
-            "time": "2017-01-07 16:45:31"
+            "time": "2017-01-07T16:45:31+00:00"
         },
         {
             "name": "cakephp/plugin-installer",
@@ -398,7 +397,7 @@
                 }
             ],
             "description": "A composer installer for CakePHP 3.0+ plugins.",
-            "time": "2017-03-21 13:48:47"
+            "time": "2017-03-21T13:48:47+00:00"
         },
         {
             "name": "friendsofcake/bootstrap-ui",
@@ -448,7 +447,7 @@
                 "cakephp",
                 "twitter"
             ],
-            "time": "2017-02-25 20:30:01"
+            "time": "2017-02-25T20:30:01+00:00"
         },
         {
             "name": "google/recaptcha",
@@ -493,7 +492,7 @@
                 "recaptcha",
                 "spam"
             ],
-            "time": "2017-03-09 18:44:34"
+            "time": "2017-03-09T18:44:34+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -558,7 +557,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2017-06-22 18:50:49"
+            "time": "2017-06-22T18:50:49+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -609,45 +608,50 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20 10:07:11"
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.4.2",
+            "version": "1.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
-                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/337e3ad8e5716c15f9657bd214d16cc5e69df268",
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "psr/http-message": "~1.0"
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "ext-zlib": "*",
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
+            },
+            "suggest": {
+                "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -655,12 +659,33 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
                 },
                 {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://github.com/sagikazarmark"
+                },
+                {
                     "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
                     "homepage": "https://github.com/Tobion"
                 }
             ],
@@ -668,13 +693,32 @@
             "keywords": [
                 "http",
                 "message",
+                "psr-7",
                 "request",
                 "response",
                 "stream",
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20 17:10:46"
+            "support": {
+                "issues": "https://github.com/guzzle/psr7/issues",
+                "source": "https://github.com/guzzle/psr7/tree/1.8.5"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/psr7",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-03-20T21:51:18+00:00"
         },
         {
             "name": "jakeasmith/http_build_url",
@@ -707,7 +751,7 @@
                 }
             ],
             "description": "Provides functionality for http_build_url() to environments without pecl_http.",
-            "time": "2017-05-01 15:36:40"
+            "time": "2017-05-01T15:36:40+00:00"
         },
         {
             "name": "league/oauth1-client",
@@ -770,7 +814,7 @@
                 "tumblr",
                 "twitter"
             ],
-            "time": "2016-08-17 00:36:58"
+            "time": "2016-08-17T00:36:58+00:00"
         },
         {
             "name": "league/oauth2-client",
@@ -837,7 +881,7 @@
                 "oauth2",
                 "single sign on"
             ],
-            "time": "2017-04-25 14:43:14"
+            "time": "2017-04-25T14:43:14+00:00"
         },
         {
             "name": "league/oauth2-facebook",
@@ -888,7 +932,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2017-07-22 01:25:00"
+            "time": "2017-07-22T01:25:00+00:00"
         },
         {
             "name": "league/oauth2-google",
@@ -939,7 +983,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2017-06-14 14:06:56"
+            "time": "2017-06-14T14:06:56+00:00"
         },
         {
             "name": "league/oauth2-instagram",
@@ -995,7 +1039,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2017-01-26 01:21:29"
+            "time": "2017-01-26T01:21:29+00:00"
         },
         {
             "name": "league/oauth2-linkedin",
@@ -1050,7 +1094,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2017-01-26 01:30:16"
+            "time": "2017-01-26T01:30:16+00:00"
         },
         {
             "name": "lorenzo/audit-stash",
@@ -1092,7 +1136,7 @@
                 "MIT"
             ],
             "description": "Flexible and rock solid audit log tracking plugin for cakephp",
-            "time": "2016-09-12 13:12:17"
+            "time": "2016-09-12T13:12:17+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -1144,7 +1188,7 @@
                 "mobile detector",
                 "php mobile detect"
             ],
-            "time": "2017-03-29 13:59:30"
+            "time": "2017-03-29T13:59:30+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1192,7 +1236,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-13 16:27:32"
+            "time": "2017-03-13T16:27:32+00:00"
         },
         {
             "name": "psr/http-message",
@@ -1242,7 +1286,10 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -1289,7 +1336,51 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "support": {
+                "issues": "https://github.com/ralouphie/getallheaders/issues",
+                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+            },
+            "time": "2019-03-08T08:55:37+00:00"
         },
         {
             "name": "robmorgan/phinx",
@@ -1355,7 +1446,7 @@
                 "migrations",
                 "phinx"
             ],
-            "time": "2016-10-27 10:16:12"
+            "time": "2016-10-27T10:16:12+00:00"
         },
         {
             "name": "ruflin/elastica",
@@ -1412,7 +1503,7 @@
                 "client",
                 "search"
             ],
-            "time": "2015-10-19 07:09:10"
+            "time": "2015-10-19T07:09:10+00:00"
         },
         {
             "name": "symfony/config",
@@ -1474,7 +1565,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-16 12:40:34"
+            "time": "2017-06-16T12:40:34+00:00"
         },
         {
             "name": "symfony/console",
@@ -1543,7 +1634,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-03 13:19:36"
+            "time": "2017-07-03T13:19:36+00:00"
         },
         {
             "name": "symfony/debug",
@@ -1599,7 +1690,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-05 13:02:37"
+            "time": "2017-07-05T13:02:37+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -1648,7 +1739,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-11 07:17:58"
+            "time": "2017-07-11T07:17:58+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1707,7 +1798,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09 14:24:12"
+            "time": "2017-06-09T14:24:12+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -1762,7 +1853,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-15 12:58:50"
+            "time": "2017-06-15T12:58:50+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -1814,7 +1905,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2017-04-06 16:18:34"
+            "time": "2017-04-06T16:18:34+00:00"
         }
     ],
     "packages-dev": [
@@ -1863,7 +1954,7 @@
                 "bake",
                 "cakephp"
             ],
-            "time": "2017-07-01 15:59:12"
+            "time": "2017-07-01T15:59:12+00:00"
         },
         {
             "name": "cakephp/debug_kit",
@@ -1923,7 +2014,7 @@
                 "debug",
                 "kit"
             ],
-            "time": "2017-07-20 11:18:33"
+            "time": "2017-07-20T11:18:33+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1982,7 +2073,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2017-03-06 11:59:08"
+            "time": "2017-03-06T11:59:08+00:00"
         },
         {
             "name": "composer/composer",
@@ -2059,7 +2150,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2017-05-17 06:17:53"
+            "time": "2017-05-17T06:17:53+00:00"
         },
         {
             "name": "composer/semver",
@@ -2121,7 +2212,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-08-30 16:08:34"
+            "time": "2016-08-30T16:08:34+00:00"
         },
         {
             "name": "composer/spdx-licenses",
@@ -2182,7 +2273,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2017-04-03 19:08:52"
+            "time": "2017-04-03T19:08:52+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2215,7 +2306,7 @@
                 "MIT"
             ],
             "description": "implementation of xdg base directory specification for php",
-            "time": "2014-10-24 07:27:01"
+            "time": "2014-10-24T07:27:01+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -2258,7 +2349,7 @@
                     "homepage": "http://www.acci.cz"
                 }
             ],
-            "time": "2014-04-08 15:00:19"
+            "time": "2014-04-08T15:00:19+00:00"
         },
         {
             "name": "jakub-onderka/php-console-highlighter",
@@ -2302,7 +2393,7 @@
                     "homepage": "http://www.acci.cz/"
                 }
             ],
-            "time": "2015-04-20 18:58:01"
+            "time": "2015-04-20T18:58:01+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -2352,7 +2443,7 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2014-01-12 16:20:24"
+            "time": "2014-01-12T16:20:24+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -2419,7 +2510,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2017-05-16 21:06:09"
+            "time": "2017-05-16T21:06:09+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -2470,7 +2561,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-06-28 20:53:48"
+            "time": "2017-06-28T20:53:48+00:00"
         },
         {
             "name": "psy/psysh",
@@ -2543,7 +2634,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-07-22 15:14:19"
+            "time": "2017-07-22T15:14:19+00:00"
         },
         {
             "name": "seld/cli-prompt",
@@ -2591,7 +2682,7 @@
                 "input",
                 "prompt"
             ],
-            "time": "2017-03-18 11:32:45"
+            "time": "2017-03-18T11:32:45+00:00"
         },
         {
             "name": "seld/jsonlint",
@@ -2640,7 +2731,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2017-06-18 15:11:04"
+            "time": "2017-06-18T15:11:04+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -2684,7 +2775,7 @@
             "keywords": [
                 "phra"
             ],
-            "time": "2015-10-13 18:44:15"
+            "time": "2015-10-13T18:44:15+00:00"
         },
         {
             "name": "symfony/finder",
@@ -2733,7 +2824,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-01 21:01:25"
+            "time": "2017-06-01T21:01:25+00:00"
         },
         {
             "name": "symfony/process",
@@ -2782,7 +2873,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-13 13:05:09"
+            "time": "2017-07-13T13:05:09+00:00"
         },
         {
             "name": "symfony/var-dumper",
@@ -2850,7 +2941,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-07-10 14:18:27"
+            "time": "2017-07-10T14:18:27+00:00"
         }
     ],
     "aliases": [],
@@ -2868,5 +2959,6 @@
     "platform": {
         "php": ">=5.5.9"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
